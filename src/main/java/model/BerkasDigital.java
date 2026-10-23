@@ -19,12 +19,14 @@ public class BerkasDigital extends Koleksi {
     }
 
     @Override
-    public boolean isLayakDipinjam() {
-        return true;
-    }
+    public boolean isLayakDipinjam() { return true; }
 
     @Override
     public String deskripsi() {
-        return super.deskripsi() + " | Type: Digital | Ukuran: " + ukuranMB + "MB | Link: " + tautanUnduh;
+        String kelayakanStr = isLayakDipinjam() ? "LAYAK" : "TIDAK LAYAK";
+        String pinjamStr = isSedangDipinjam() ? "SEDANG DIPINJAM" : "BELUM DIPINJAM";
+        
+        return super.deskripsi() + " | Berkas digital: " + ukuranMB + " MB | Tautan: " + tautanUnduh +
+               "\nKelayakan: " + kelayakanStr + " | Peminjaman: " + pinjamStr;
     }
 }

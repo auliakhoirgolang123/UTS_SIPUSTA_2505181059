@@ -13,6 +13,6 @@ public interface Terarsip {
     String lokasiLantai();
 
     default String ringkasanArsip() {
-        return "Lokasi: Rak " + nomorRak() + ", " + lokasiLantai();
+        return nomorRak() + ", " + lokasiLantai();
     }
 }

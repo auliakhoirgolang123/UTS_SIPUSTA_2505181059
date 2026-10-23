@@ -8,8 +8,7 @@ package eksepsi;
  *
  * @author MyBook Hype AMD
  */
+
 public class PustakaException extends Exception {
-    public PustakaException(String message) {
-        super(message);
-    }
+    public PustakaException(String message) { super(message); }
 }

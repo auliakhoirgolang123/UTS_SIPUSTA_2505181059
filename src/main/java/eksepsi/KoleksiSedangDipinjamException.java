@@ -8,9 +8,8 @@ package eksepsi;
  *
  * @author MyBook Hype AMD
  */
-
 public class KoleksiSedangDipinjamException extends PustakaException {
-    public KoleksiSedangDipinjamException(String kode) {
-        super("Gagal Pinjam: Koleksi dengan kode " + kode + " saat ini sedang dipinjam oleh pengguna lain.");
+    public KoleksiSedangDipinjamException(String judul) {
+        super("Ditolak: Koleksi \"" + judul + "\" sedang dipinjam. Silakan pilih koleksi lain.");
     }
 }

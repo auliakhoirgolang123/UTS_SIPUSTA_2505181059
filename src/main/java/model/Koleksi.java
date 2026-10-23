@@ -8,6 +8,7 @@ package model;
  *
  * @author MyBook Hype AMD
  */
+
 public abstract class Koleksi {
     private String kodeKoleksi;
     private String judul;
@@ -21,29 +22,15 @@ public abstract class Koleksi {
         this.sedangDipinjam = false;
     }
 
-    public String getKodeKoleksi() {
-        return kodeKoleksi;
-    }
-
-    public String getJudul() {
-        return judul;
-    }
-
-    public int getTahunTerbit() {
-        return tahunTerbit;
-    }
-
-    public boolean isSedangDipinjam() {
-        return sedangDipinjam;
-    }
-
-    public void setSedangDipinjam(boolean sedangDipinjam) {
-        this.sedangDipinjam = sedangDipinjam;
-    }
+    public String getKodeKoleksi() { return kodeKoleksi; }
+    public String getJudul() { return judul; }
+    public int getTahunTerbit() { return tahunTerbit; }
+    public boolean isSedangDipinjam() { return sedangDipinjam; }
+    public void setSedangDipinjam(boolean sedangDipinjam) { this.sedangDipinjam = sedangDipinjam; }
 
     public abstract boolean isLayakDipinjam();
 
     public String deskripsi() {
-        return "Kode: " + kodeKoleksi + " | Judul: " + judul + " | Tahun: " + tahunTerbit;
+        return kodeKoleksi + " | " + judul + " | Tahun: " + tahunTerbit;
     }
 }

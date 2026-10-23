@@ -8,8 +8,9 @@ package eksepsi;
  *
  * @author MyBook Hype AMD
  */
+
 public class KoleksiTidakLayakException extends PustakaException {
     public KoleksiTidakLayakException(String judul) {
-        super("Gagal Pinjam: Koleksi '" + judul + "' saat ini tidak layak untuk dipinjam.");
+        super("Ditolak: Koleksi \"" + judul + "\" belum memenuhi ketentuan peminjaman. Silakan pilih koleksi lain.");
     }
 }
