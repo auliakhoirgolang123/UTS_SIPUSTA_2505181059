@@ -1,18 +1,8 @@
-MJ-002 | Info Teknologi Edisi 87 | Tahun: 2026 | Majalah edisi 87 | Bulan: Juli | Rak C-02, lantai 2 | Edisi terbaru: Tidak
-Kelayakan: LAYAK | Peminjaman: SEDANG DIPINJAM
-
-BK-001 | Java How to Program | Tahun: 2022 | Buku cetak: 620 halaman | Rak A-12, lantai 1 | Diperbaiki: Tidak
-Kelayakan: LAYAK | Peminjaman: SEDANG DIPINJAM
-
-BD-002 | Jurnal Rekayasa Perangkat | Tahun: 2025 | Berkas digital: 8.0 MB | Tautan: unduh.polmed.ac.id/bd002
-Kelayakan: LAYAK | Peminjaman: SEDANG DIPINJAM
-
-BD-001 | Panduan Pemrograman Java | Tahun: 2024 | Berkas digital: 15.0 MB | Tautan: unduh.polmed.ac.id/bd001
-Kelayakan: LAYAK | Peminjaman: SEDANG DIPINJAM
-
-BK-002 | Basis Data Relasional | Tahun: 2021 | Buku cetak: 410 halaman | Rak B-04, lantai 1 | Diperbaiki: Ya
-Kelayakan: TIDAK LAYAK | Peminjaman: BELUM DIPINJAM
-
-MJ-001 | Info Teknologi Edisi 88 | Tahun: 2026 | Majalah edisi 88 | Bulan: Agustus | Rak C-01, lantai 2 | Edisi terbaru: Ya
-Kelayakan: TIDAK LAYAK | Peminjaman: BELUM DIPINJAM
-
+KODE       JUDUL                          TAHUN      STATUS PINJAM        KELAYAKAN           
+---------------------------------------------------------------------------------------------
+MJ-002     Info Teknologi Edisi 87        2026       Dipinjam             Layak               
+BK-001     Java How to Program            2022       Dipinjam             Layak               
+BD-002     Jurnal Rekayasa Perangkat      2025       Dipinjam             Layak               
+BD-001     Panduan Pemrograman Java       2024       Dipinjam             Layak               
+BK-002     Basis Data Relasional          2021       Tersedia             Tidak Layak         
+MJ-001     Info Teknologi Edisi 88        2026       Tersedia             Tidak Layak         
